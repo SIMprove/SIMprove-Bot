@@ -17,7 +17,7 @@ simprove_token <- function() {
 # pull new tweets --------------------------------------------------------------
 
 ## search terms
-hashtag <- "(#simprove OR #simulationstudy)"
+hashtag <- "(#simprove OR #simulationstudy) -#catgirl -#robloxdev -#splatoon2 -#QANON -penis -#femboyfriday -horny -#NintendoSwitch -#inglés -#YGK -#SavageWorlds -#SuperMarioMaker2 -#ecchi -#SuperMarioOdyssey -#dccomics -accelerationism -#commissionsopen -#gamedev -#visitlanka"
 
 ## use since_id from previous search (if exists)
 if (file.exists(file.path("data", "search.rds"))) {
